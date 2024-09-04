@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](/previews.png)
-![Mobile](/previews-m.png)
+![Desktop](https://github.com/jungang0414/frontend-challenge/blob/main/vite-blog-preview-card/public/previews.PNG)
+![Mobile](https://github.com/jungang0414/frontend-challenge/blob/main/vite-blog-preview-card/public/previews-m.PNG)
 
 
 ### Links
