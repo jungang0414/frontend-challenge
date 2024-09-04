@@ -1,42 +1,149 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* css reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* css variables */
+body {
+  /* color */
+  --yellow: #F4D04E;
+  --white: #FFFFFF;
+
+  --gray-500: #6B6B6B;
+  --gray-950: #111111;
+
+  /* Typography */
+  font-size: 16px;
+  font-family: "Figtree", sans-serif;
+
+  /* Spacing */
+  --sp-200: 16px;
+  --sp-150: 12px;
+  --sp-100: 8px;
+  --sp-50: 4px;
+
+  background-color: var(--yellow);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.text-preset-1 {
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 800;
+  color: var(--gray-950);
+}
+
+@media screen and (max-width: 375px) {
+  .text-preset-1 {
+    font-size: 20px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+.text-preset-2 {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: var(--gray-500);
+}
+
+@media screen and (max-width: 375px) {
+  .text-preset-2 {
+    font-size: 14px;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+.text-preset-3 {
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: var(--gray-950);
+}
+
+@media screen and (max-width: 375px) {
+  .text-preset-3 {
+    font-size: 12px;
+  }
+}
+
+.text-preset-3-b {
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 800;
+  color: var(--gray-950);
+}
+
+@media screen and (max-width: 375px) {
+  .text-preset-3-b {
+    font-size: 12px;
   }
 }
 
 .card {
-  padding: 2em;
+  max-width: 384px;
+  max-height: 520px;
+  background-color: var(--white);
+
+  border: 1px solid var(--gray-950);
+  box-shadow: 8px 8px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 24px;
 }
 
-.read-the-docs {
-  color: #888;
+@media screen and (max-width: 375px) {
+  .card {
+    width: 333px;
+  }
+}
+
+img {
+  border-radius: 10px;
+}
+
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.learning {
+  background-color: var(--yellow);
+  padding: 4px 12px;
+  border-radius: 4px;
+  color: var(--gray-950);
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+}
+
+.active {
+  cursor: pointer;
+
+  &:hover {
+    color: var(--yellow);
+  }
 }
