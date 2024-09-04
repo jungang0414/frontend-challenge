@@ -10,6 +10,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Flexbox
 - CSS Grid
 
+### Links
+
+- Solution URL: [Add solution URL here](https://github.com/jungang0414/frontend-challenge/tree/main/vite-qr-code)
+- Live Site URL: [Add live site URL here](https://frontend-qrcode-challenge.netlify.app)
+
+
 # Front-end Style Guide
 
 ## Layout
