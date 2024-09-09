@@ -12,11 +12,11 @@ function App() {
             </p>
           </div>
           <ul className="card-Links" >
-            <li>GitHub</li>
-            <li>Frontend Mentor</li>
-            <li>LinkedIn</li>
-            <li>Twitter</li>
-            <li>Instagram</li>
+            <li className="link-hover">GitHub</li>
+            <li className="link-hover">Frontend Mentor</li>
+            <li className="link-hover">LinkedIn</li>
+            <li className="link-hover">Twitter</li>
+            <li className="link-hover">Instagram</li>
           </ul>
         </div>
       </main>
