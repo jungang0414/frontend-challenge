@@ -42,6 +42,7 @@ body {
 .card-avatar {
     border-radius: 50%;
     width: 88px;
+    margin-bottom: 24px;
 }
 
 .card-Introduction {
