@@ -11,3 +11,4 @@ solution to the [Frontend Mentor](https://www.frontendmentor.io/). Frontend Ment
 | QRCODE     | [code](https://github.com/jungang0414/frontend-challenge/tree/main/vite-qr-code)     | [demo](https://frontend-qrcode-challenge.netlify.app/)     |
 | Blog | [code](https://github.com/jungang0414/frontend-challenge/tree/main/vite-blog-preview-card)| [demo](https://frontend-blog-preview-challenge.netlify.app/) |
 | Social Links | [code](https://github.com/jungang0414/frontend-challenge/tree/main/vite-social-links-profile) | [demo](https://my-social-links-challenge.netlify.app/) |
+| recipe page | [code](https://github.com/jungang0414/frontend-challenge/tree/main/vite-recipe-page-main) | [demo](https://vite-recipe-page.netlify.app/) |
