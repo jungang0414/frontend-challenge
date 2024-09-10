@@ -13,7 +13,7 @@ const Recipe = () => {
             your choice of cheese, vegetables, or meats.
           </p>
           <section className="preparation">
-            <h3 className="outfit-600">Preparation time</h3>
+            <h2 className="outfit-600">Preparation time</h2>
             <ul className="outfit-400 text-preset-1">
               <li>
                 <p>

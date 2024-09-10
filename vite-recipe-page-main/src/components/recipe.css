@@ -88,10 +88,6 @@
         color: var(--brown-800);
     }
 
-    h3 {
-        color: var(--rose-800);
-    }
-
     img {
         border-radius: var(--spacing-250);
     }
@@ -142,6 +138,11 @@
     display: flex;
     flex-direction: column;
     gap: var(--spacing-250);
+
+    h2 {
+        font-size: 24px;
+        color: var(--rose-800);
+    }
 
     ul {
         display: flex;
