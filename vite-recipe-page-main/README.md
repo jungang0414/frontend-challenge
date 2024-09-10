@@ -22,9 +22,20 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 
 設計稿 可以在assets/design 查看
 
+### Screenshot
+
+![Desktop](https://github.com/jungang0414/frontend-challenge/blob/main/vite-recipe-page-main/src/assets/design/preview.PNG)
+![Mobile](https://github.com/jungang0414/frontend-challenge/blob/main/vite-blog-preview-card/public/previews-m.PNG)
+
 ### Built with 
+
+- React + Vite
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
 
 ### Links
 
-- Solution URL: [solution URL here](https://github.com/jungang0414/frontend-challenge/tree/main/vite-social-links-profile)
-- Live Site URL: [live site URL here](https://my-social-links-challenge.netlify.app/)
+- Solution URL: [solution URL here](https://github.com/jungang0414/frontend-challenge/tree/main/vite-recipe-page-main)
+- Live Site URL: [live site URL here](https://vite-recipe-page.netlify.app/)
