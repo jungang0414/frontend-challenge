@@ -56,6 +56,7 @@ const Recipe = () => {
             </li>
           </ul>
         </section>
+        <hr />
         <section className="instructions">
           <h2 className="young-serif-400">Instructions</h2>
           <ol className="text-preset-2">
@@ -105,6 +106,7 @@ const Recipe = () => {
             </li>
           </ol>
         </section>
+        <hr />
         <section className="nutrition outfit-400">
           <h2 className="young-serif-400">Nutrition</h2>
           <p className="">
