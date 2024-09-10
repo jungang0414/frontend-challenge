@@ -69,6 +69,7 @@
 .container {
     background-color: var(--white);
     padding: var(--spacing-450);
+    margin: 100px auto;
     border-radius: var(--spacing-250);
 
     width: 736px;
@@ -96,6 +97,27 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+
+    .container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border-radius: 0;
+
+        img {
+            width: 100%;
+            max-width: 100%;
+            border-radius: 0;
+            display: block;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+    }
+}
+
 .meal {
     display: flex;
     flex-direction: column;
@@ -103,6 +125,12 @@
 
     p {
         color: var(--stone-600);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .meal {
+        margin: 0 30px;
     }
 }
 
@@ -126,7 +154,7 @@
         }
 
         p {
-            display: inline-block;
+            display: block;
         }
 
         li {
@@ -155,6 +183,12 @@
     }
 }
 
+@media screen and (max-width:768px) {
+    .ingredients {
+        margin: 0 30px;
+    }
+}
+
 .instructions {
 
     display: flex;
@@ -177,6 +211,12 @@
     p {
         margin-left: var(--spacing-250);
         color: var(--stone-600);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .instructions {
+        margin: 0 20px;
     }
 }
 
@@ -213,4 +253,11 @@
         padding-bottom: 0;
     }
 
+}
+
+@media screen and (max-width:768px) {
+    .nutrition {
+        margin: 0 20px;
+        margin-bottom: 40px;
+    }
 }

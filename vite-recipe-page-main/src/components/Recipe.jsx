@@ -113,7 +113,7 @@ const Recipe = () => {
           </p>
           <table>
             <tbody>
-              <tr>
+              <tr className="hr-line">
                 <td>Calories</td>
                 <td className="text-brown outfit-600">277kcal</td>
               </tr>
