@@ -25,7 +25,7 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 ### Screenshot
 
 ![Desktop](https://github.com/jungang0414/frontend-challenge/blob/main/vite-recipe-page-main/src/assets/design/preview.PNG)
-![Mobile](https://github.com/jungang0414/frontend-challenge/blob/main/vite-blog-preview-card/public/previews-m.PNG)
+![Mobile](https://github.com/jungang0414/frontend-challenge/blob/main/vite-recipe-page-main/public/previews-m.PNG)
 
 ### Built with 
 
