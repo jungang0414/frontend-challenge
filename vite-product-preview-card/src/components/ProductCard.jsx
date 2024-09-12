@@ -1,3 +1,5 @@
+import "../scss/product.css";
+
 const ProductCard = () => {
   return (
     <>
