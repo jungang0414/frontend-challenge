@@ -2,7 +2,7 @@ import "../scss/product.css";
 
 const ProductCard = () => {
   return (
-    <>
+    <main>
       <div className="container">
         <div className="img"></div>
         <div className="card-info">
@@ -28,7 +28,7 @@ const ProductCard = () => {
           </div>
         </div>
       </div>
-    </>
+    </main>
   );
 };
 
