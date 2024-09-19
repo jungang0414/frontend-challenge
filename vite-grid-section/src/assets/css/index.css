@@ -1,0 +1,88 @@
+:root {
+
+  /* primary */
+  --primary-moderate-violet: hsl(263, 55%, 52%);
+  --primary-dark-gray-blue: hsl(217, 19%, 35%);
+  --primary-black-blue: hsl(219, 29%, 14%);
+  --primary-white: hsl(0, 0%, 100%);
+
+  /* neutral */
+  --neutral-light-gary: hsl(0, 0%, 81%);
+  --neutral-ligth-gary-blue: hsl(210, 46%, 95%);
+
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-style: normal;
+  /*  Weight 500, 600 */
+  /* 
+  1. "Verified Graduate" has the same color as the person's name with 50% opacity
+  2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity 
+  */
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  min-width: 375px;
+  min-height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 540px 255px 255px;
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 24px;
+  row-gap: 30px;
+}
+
+.card-img {
+  display: flex;
+  gap: 14px;
+}
+
+.card-img p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.card-img img {
+  width: 30px;
+  height: 30px;
+  border: 2px solid var(--primary-moderate-violet);
+  border-radius: 50%;
+}
+
+.card-img span {
+  font-size: 10px;
+  display: block;
+  opacity: 50%;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.item3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.item4 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.item5 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
