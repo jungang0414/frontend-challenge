@@ -12,14 +12,19 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![desktop](https://github.com/jungang0414/frontend-challenge/blob/main/vite-four-card/src/assets/design/preview.PNG)
+![moblie](https://github.com/jungang0414/frontend-challenge/blob/main/vite-four-card/src/assets/design/preview-m.PNG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/jungang0414/frontend-challenge/tree/main/vite-four-card)
+- Live Site URL: [Add live site URL here](https://vite-four-card.netlify.app/)
 
-## My process
+### Learn
+
+- flexbox
+- CSS變數
+- React props
 
 ### Built with
 
