@@ -1,0 +1,93 @@
+:root {
+
+    /* primary */
+    --Team: hsl(0, 78%, 62%);
+    --Super: hsl(180, 62%, 55%);
+    --Karma: hsl(34, 97%, 64%);
+    --Calculator: hsl(212, 86%, 64%);
+
+    /* font */
+    --DarkBlue: hsl(234, 12%, 34%);
+    --GrayBlue: hsl(229, 6%, 66%);
+
+    /* background */
+    --LightGary: #fafafa;
+    --white: #ffffff;
+}
+
+.card {
+    width: 350px;
+    height: 250px;
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 10px;
+    border-top: 5px solid;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0px 10px 25px -5px rgba(73, 128, 160, 0.5);
+
+    position: relative;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
+
+.supervisor {
+    border-color: var(--Super);
+}
+
+.team {
+    border-color: var(--Team);
+}
+
+.karma {
+    border-color: var(--Karma);
+}
+
+.calculator {
+    border-color: var(--Calculator);
+}
+
+
+.card-title {
+    font-size: 16px;
+    color: var(--DarkBlue);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--GrayBlue);
+    margin-bottom: 30px;
+}
+
+.card-image {
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 300px;
+    }
+
+    .card-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .cards:last-child {
+        margin-bottom: 90px;
+    }
+}
