@@ -12,6 +12,7 @@ Users should be able to:
 ### Screenshot
 
 ![desktop](https://github.com/jungang0414/frontend-challenge/blob/main/vite-grid-section/src/assets/design/preview.PNG)
+![mobile](https://github.com/jungang0414/frontend-challenge/blob/main/vite-grid-section/src/assets/design/preview-m.PNG)
 
 ### Links
 
