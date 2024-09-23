@@ -13,3 +13,5 @@ solution to the [Frontend Mentor](https://www.frontendmentor.io/). Frontend Ment
 | Social links profile | [code](https://github.com/jungang0414/frontend-challenge/tree/main/vite-social-links-profile) | [demo](https://my-social-links-challenge.netlify.app/) |
 | Recipe page | [code](https://github.com/jungang0414/frontend-challenge/tree/main/vite-recipe-page-main) | [demo](https://vite-recipe-page.netlify.app/) |
 | Product preview card component | [code](https://github.com/jungang0414/frontend-challenge/tree/main/vite-product-preview-card) | [demo](https://vite-product-preview-card.netlify.app/) |
+| Four card | [code](https://github.com/jungang0414/frontend-challenge/tree/main/vite-four-card) | [demo](https://vite-four-card.netlify.app/) |
+| grid-section | [code](https://github.com/jungang0414/frontend-challenge/tree/main/vite-grid-section) | [demo](https://grid-section-desktop.netlify.app/) |
